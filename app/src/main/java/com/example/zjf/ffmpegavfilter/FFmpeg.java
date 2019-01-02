@@ -40,6 +40,13 @@ public class FFmpeg {
 				bufferSizeInBytes, AudioTrack.MODE_STREAM);
 	}
 
+	/**
+	 *
+	 * @param filePath		源文件目录
+	 * @param surface		surfaceview
+	 * @param filterType		滤镜类型
+	 * @return
+	 */
 	public native int filter(String filePath, Object surface, String filterType);
 	public native int play(String filePath, Object surface);
 	public native int setPlayRate(float playRate);

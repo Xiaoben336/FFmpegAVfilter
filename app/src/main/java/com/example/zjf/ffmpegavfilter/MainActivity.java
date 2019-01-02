@@ -64,7 +64,8 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
 			"colorbalance=bs=0.3",
 			"drawbox=x=100:y=100:w=100:h=100:color=red@0.5'",
 			"vflip",
-			"unsharp"
+			"unsharp",
+			"movie=/storage/emulated/0/zjf.jpg[wm];[in][wm]overlay=5:5[out]"
 	};
 	private String[] txtArray = new String[]{
 			"素描",
@@ -76,7 +77,8 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
 			"均衡",
 			"矩形",
 			"翻转",//vflip上下翻转,hflip是左右翻转
-			"锐化"
+			"锐化",
+			"水印"
 	};
 	private HorizontalAdapter horizontalAdapter;
 	private RecyclerView recyclerView;

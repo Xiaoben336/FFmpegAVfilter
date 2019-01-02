@@ -18,7 +18,6 @@ extern "C" {
 #include <libswresample/swresample.h>
 #include <libavutil/opt.h>
 #define TAG "FFmpegFilter"
-#define LOGI(FORMAT,...) __android_log_print(ANDROID_LOG_INFO, TAG, FORMAT, ##__VA_ARGS__);
 #define LOGE(FORMAT,...) __android_log_print(ANDROID_LOG_ERROR, TAG, FORMAT, ##__VA_ARGS__);
 #define LOGD(FORMAT,...) __android_log_print(ANDROID_LOG_DEBUG, TAG, FORMAT, ##__VA_ARGS__);
 };
